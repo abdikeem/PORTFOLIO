@@ -29,7 +29,7 @@ let header = $(`
 <nav class="black">
 <div class="nav-wrapper">
     <a href="#!" class="brand-logo"><img src="/images/logo.jpg" style="width:53px; border-radius:10%;"></a>
-    <a href="#" data-target="mobile-demo" class="white-text sidenav-trigger"><i
+    <a href="#" data-target="mobile" class="white-text sidenav-trigger"><i
             class="material-icons">menu</i></a>
     <ul class="right hide-on-med-and-down">
         <li><a class="white-text" href="#home">Home</a></li>
@@ -56,16 +56,10 @@ let header = $(`
 </nav>
 
 <!--Side Nav Bar -->
-<ul class="sidenav" id="mobile-demo">
-  <li><a class="white-text" href="#home">Home</a></li>
-  <li><a class="white-text" href="#education">Education</a></li>
-  <li><a class="white-text" href="#projects">Projects</a></li>
-  <li><a class="white-text" href="#skills">Skills</a></li>
-
+<ul class="sidenav" id="mobile">
 <!--TOGGLE FOR LIGHT/DARK MODE-->
         <li>
         <label for="switch" class="theme-switch">
-        <input class="toggle-checkbox" type="checkbox" id="switch" name="theme" />
           <div class='toggle-slot side-toggle'>
           <div class='sun-icon-wrapper'>
           <div class="iconify sun-icon" data-icon="feather-sun" data-inline="false"> </div>

@@ -134,7 +134,6 @@ html {
 }
 
 /* NAVBAR*/
-
 .nav-wrapper a:hover,
 .sidenav a:hover {
   text-decoration: none;
@@ -420,13 +419,13 @@ html.transition *:after {
   font-size: 15px;
   border-radius: 2px;
 }
-/*.tt-copy {
+/* .tt-copy {
   font-size: 0px;
   line-height: 0px;
   color: #fff;
   padding: 0px 0;
   font-family: "Open Sans", sans-serif;
-}*/
+} */
 
 /*Responsive*/
 
