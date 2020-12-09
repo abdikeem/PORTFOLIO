@@ -60,6 +60,7 @@ let header = $(`
 <!--TOGGLE FOR LIGHT/DARK MODE-->
         <li>
         <label for="switch" class="theme-switch">
+        <input class="toggle-checkbox" type="checkbox" id="switch" name="theme" />
           <div class='toggle-slot side-toggle'>
           <div class='sun-icon-wrapper'>
           <div class="iconify sun-icon" data-icon="feather-sun" data-inline="false"> </div>
